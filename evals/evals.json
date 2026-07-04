@@ -1,0 +1,20 @@
+{
+  "skill_name": "google-suggest-miner",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我挖一下 'build a soccer squad' 的 Google 联想词",
+      "expected_output": "运行 Google Suggest 脚本，生成 CSV 和 JSON 文件，包含种子词及 a-z 遍历后的去重联想词，并展示前几条结果"
+    },
+    {
+      "id": 2,
+      "prompt": "用 Google Suggest 扩展关键词 'best free AI tool'",
+      "expected_output": "调用脚本挖掘 'best free AI tool' 的联想词，保存结果文件到当前目录"
+    },
+    {
+      "id": 3,
+      "prompt": "关键词扩展：mobile game idea",
+      "expected_output": "识别出关键词挖掘意图，运行脚本并输出相关搜索建议"
+    }
+  ]
+}
